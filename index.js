@@ -5,7 +5,7 @@ if (env == 'dev') {
 
 // Define client for Haven OnDemand
 var havenondemand = require('havenondemand')
-var  client = new havenondemand.HODClient(process.env.HOD_APIKEY)
+var client = new havenondemand.HODClient(process.env.HOD_APIKEY)
 
 //Define Botkit controller
 var Botkit = require('Botkit')
